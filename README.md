@@ -1,4 +1,5 @@
 # AWS Certified Solutions Architect - Associate Study Note
+                                     Start From 2019-07-18
 ---
 Recommended Knowledge
 - Hands-on experience using compute, networking, storage, and database AWS services
