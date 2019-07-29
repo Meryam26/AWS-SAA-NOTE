@@ -38,12 +38,19 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 * New Users have **NO permissions** when first created.
 * New Users are assigned **Access Key ID** & **Secret Access Keys** when first created.
 
-===
+---
 
 ### S3
-* S3 is **Object-based** allows you to upload files.
+* S3 is **Object-based**. Objects consist of the following:
+    * Key
+    * Value
+    * Version ID
+    * Metadata
+    * Subresources (Accss Control Lists + Torrent)
 * Files can be from 9 Bytes to 5 TB.
 * There is unlimited storage.
 * Files are stored in **Buckets**.
 * S3 is a **universal namespace**. That is, names must be unique globally.
+* 
+
 
