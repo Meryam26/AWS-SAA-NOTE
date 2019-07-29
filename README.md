@@ -54,9 +54,9 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 * Storage Classes
     1. S3 Standard
     2. S3 - IA (Infrequently Accessed): Lower fee than S3, charged a retrieval fee.
-    3. S3 One Zone - IA: do not require the multiple Availability Zone data resilience.
-    4. S3 - Intelligent Tiering
-    5. S3 Glacier
+    3. S3 One Zone - IA: do not require the multiple Availability Zone data resilience. **RRS/reduce redundancy storage**
+    4. S3 - Intelligent Tiering: Machine learning
+    5. S3 Glacier: Retrieval times configurable from minutes to hours.
     6. S3 Glacier Deep Archive: Lowest-cost storage class where a retrieval time of 12 hours is acceptable. Request and come back 12 hours later.
 * Charge
     * Storage
@@ -64,5 +64,8 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
     * Storage Management Pricing
     * Transfer Acceleration: CloudFront's globally distributed edge locations.
     * Cross Region Replication Pricing
+**FAQ**
+
+---
 
 
