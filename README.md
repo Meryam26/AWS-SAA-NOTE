@@ -1,7 +1,6 @@
-### AWS Certified Solutions Architect - Associate Study Note
----
+## AWS Certified Solutions Architect - Associate Study Note
 
-#### Table of Contents
+### Table of Contents
 * [Security, Identity & Compliance](#security-identity-compliance)
   * [IAM](#iam)
 * [Network & Content Delivery](#network-contect-delivery)
@@ -19,7 +18,7 @@
 * [AWS Global Infrastructure](#aws-global-infrastructure)
 ---
 
-#### AWS Global Infrastructure
+### AWS Global Infrastructure
  * A **Region** is a physical location in the world which consists of two or more Availability Zones (AZ's)
  * An **AZ** is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.
  * **Edge Locations** are endpoints for AWS which are used for caching contect. Typically this consists of CloudFront, Amazon's Content Delivery Network (CDN).
@@ -28,7 +27,7 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 
 ---
 
-#### IAM
+### IAM
 IAM - Identity Access Management
  * Users - End Users such as people, employees of an organization etc.
  * Groups - A collection of users. Each user in the group will inherit the permissions of the group.
@@ -37,4 +36,4 @@ IAM - Identity Access Management
 
 ---
 
-#### S3
+### S3
