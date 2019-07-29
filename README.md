@@ -14,6 +14,11 @@
 ### DynamoDB
 ### RedShift
 ## AWS Global Infrastructure
+---
+
+## AWS Global Infrastructure
+Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFront - CDN)
 
 ---
 
+## S3
