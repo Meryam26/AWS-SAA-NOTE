@@ -1,4 +1,6 @@
-# AWS Certified Solutions Architect - Associate Study Note
+### AWS Certified Solutions Architect - Associate Study Note
+---
+
 #### Table of Contents
 * [Security, Identity & Compliance](#security-identity-compliance)
   * [IAM](#iam)
