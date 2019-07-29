@@ -64,6 +64,7 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
     * Storage Management Pricing
     * Transfer Acceleration: CloudFront's globally distributed edge locations.
     * Cross Region Replication Pricing
+
 **FAQ**
 
 ---
