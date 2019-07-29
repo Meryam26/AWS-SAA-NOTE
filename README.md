@@ -42,17 +42,27 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 
 ### S3
 * S3 is **Object-based**. Objects consist of the following:
-    * Key
-    * Value
-    * Version ID
-    * Metadata
-    * Subresources (Accss Control Lists + Torrent)
+    * Key: Name of the object
+    * Value: Data and is made up of a sequence of bytes
+    * Version ID: Imporant for versioning
+    * Metadata: Data about data you are storing
+    * Subresources (Accss Control Lists & Torrent)
 * Files can be from 9 Bytes to 5 TB.
 * There is unlimited storage.
 * Files are stored in **Buckets**.
 * S3 is a **universal namespace**. That is, names must be unique globally.
 * Storage Classes
     1. S3 Standard
-    2. S3 - IA (Infrequently Accessed)
+    2. S3 - IA (Infrequently Accessed): Lower fee than S3, charged a retrieval fee.
+    3. S3 One Zone - IA: do not require the multiple Availability Zone data resilience.
+    4. S3 - Intelligent Tiering
+    5. S3 Glacier
+    6. S3 Glacier Deep Archive: Lowest-cost storage class where a retrieval time of 12 hours is acceptable. Request and come back 12 hours later.
+* Charge
+    * Storage
+    * Requests
+    * Storage Management Pricing
+    * Transfer Acceleration: CloudFront's globally distributed edge locations.
+    * Cross Region Replication Pricing
 
 
