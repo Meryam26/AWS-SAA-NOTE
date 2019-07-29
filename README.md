@@ -2,17 +2,17 @@
 ## Security, Identity & Compliance
 * IAM
 ## Network & Content Delivery
-* Route53
-* VPC
+### Route53
+### VPC
 ## Compute
-* EC2
-* Lambda
+### EC2
+### Lambda
 ## Storage
-* S3
+### S3
 ## Databases
-* RDS
-* DynamoDB
-* RedShift
+### RDS
+### DynamoDB
+### RedShift
 ## AWS Global Infrastructure
 
 ---
