@@ -1,6 +1,5 @@
 # AWS Certified Solutions Architect - Associate Study Note
-Table of Contents
-=================
+#### Table of Contents
 * [Security, Identity & Compliance](#security-identity-compliance)
   * [IAM](#iam)
 * [Network & Content Delivery](#network-contect-delivery)
@@ -8,7 +7,7 @@ Table of Contents
   * [VPC](#vpc)
 * [Compute](#compute)
   * [EC2](#ec2)
-  * [Lambda](lambda)
+  * [Lambda](#lambda)
 * [Storage](#storage)
   * [S3](#s3)
 * [Databases](#databases)
@@ -18,9 +17,9 @@ Table of Contents
 * [AWS Global Infrastructure](#aws-global-infrastructure)
 ---
 
-## AWS Global Infrastructure
+#### AWS Global Infrastructure
 Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFront - CDN)
 
 ---
 
-## S3
+#### S3
