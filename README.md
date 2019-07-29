@@ -51,6 +51,8 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 * There is unlimited storage.
 * Files are stored in **Buckets**.
 * S3 is a **universal namespace**. That is, names must be unique globally.
-* 
+* Storage Classes
+    1. S3 Standard
+    2. S3 - IA (Infrequently Accessed)
 
 
