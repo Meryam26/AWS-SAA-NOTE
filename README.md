@@ -34,6 +34,10 @@ IAM - Identity Access Management
  * Policies - Polices are made up of documents, called Policy documents. These documents are in a format called JSON and they give permissions as to what a User/Group/Role is able to do.
  * Roles - You create roles and then assign them to AWS Resources.
 
+* IAM is **universal**. It does not apply to regions at this time.
+* New Users have **NO permissions** when first created.
+* New Users are assigned **Access Key ID** & **Secret Access Keys** when first created.
+
 ---
 
 ### S3
