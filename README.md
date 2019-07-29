@@ -29,10 +29,11 @@ Region (>2 AZs) > Availability Zone > Edge Locations (caching content, CloudFron
 ---
 
 #### IAM
- * Users
- * Groups
- * Policies
- * Roles
+IAM - Identity Access Management
+ * Users - End Users such as people, employees of an organization etc.
+ * Groups - A collection of users. Each user in the group will inherit the permissions of the group.
+ * Policies - Polices are made up of documents, called Policy documents. These documents are in a format called JSON and they give permissions as to what a User/Group/Role is able to do.
+ * Roles - You create roles and then assign them to AWS Resources.
 
 ---
 
