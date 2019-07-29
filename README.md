@@ -1,6 +1,6 @@
 # AWS Certified Solutions Architect - Associate Study Note
 ## Security, Identity & Compliance
-* IAM
+### IAM
 ## Network & Content Delivery
 ### Route53
 ### VPC
